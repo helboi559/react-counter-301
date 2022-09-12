@@ -1,10 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 
-// {
-//           src:"https://t3.ftcdn.net/jpg/01/21/64/88/360_F_121648819_ZQ0tZ6tjLzxim1SG7CQ86raBw4sglCzB.jpg",
-//           width:"50px"
-//         }
+
 const Counter = () => {
     const [count,setCount] = useState(0)
     let [imgCount,setImgCount] = useState([])
@@ -25,8 +22,7 @@ const increaseByOne = () => {
 
     if(count > 0) {
       setCount(count - 1)
-    //   setImgCount(imgCount.filter((item)=>item !== ))
-      setImgCount((imgCount) => imgCount.filter((_,index) => index !==0))
+      setImgCount(imgCount.filter((ele,index) => index !==0))
         
     }
     
