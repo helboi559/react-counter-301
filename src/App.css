@@ -1,0 +1,38 @@
+nav {
+  /* display: flex; */
+  background-color: red;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* .game-container {
+    display: flex;
+} */
+.game-control {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+span {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+img {
+  width: 50px;
+}
